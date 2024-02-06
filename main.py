@@ -1,8 +1,9 @@
 # Calcula o fatorial de numero (numero!)
 def somatoria(numero):
-    if numero == 0 or numero == 1:
+    if numero == 1:
         return 1
     return somatoria(numero - 1) + numero
+
 
 # Calcula a somatória de 1 a numero
 def fatorial(numero):
